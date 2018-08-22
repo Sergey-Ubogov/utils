@@ -2,7 +2,7 @@ let fs = require('fs');
 let path = require('path');
  
 if (process.argv.length <= 2) {
-    console.log("arg: full path dir for rename *.js to *.tsx");
+    console.log("arg: full path dir for rename *.js(x) to *.ts(x)");
     process.exit(-1);
 }
  
